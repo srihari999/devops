@@ -41,6 +41,7 @@ END SNIPPET: ant-bootstrap -->
   <property name="maven-compile.maxmemory" value="512m"/>
 
   <target name="initTaskDefs">
+    
     <echo>Building ${distributionName} ...</echo>
     <xmlproperty file="pom.xml" prefix="xmlPom" />
     <path id="maven-ant-tasks.classpath" path="maven-ant-tasks-2.1.1.jar" />
